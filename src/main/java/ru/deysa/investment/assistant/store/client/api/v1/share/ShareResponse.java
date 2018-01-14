@@ -12,6 +12,8 @@ public class ShareResponse implements Serializable {
 
     private Double max;
 
+    private Boolean enable;
+
     public Long getId() {
         return id;
     }
@@ -42,5 +44,13 @@ public class ShareResponse implements Serializable {
 
     public void setMax(Double max) {
         this.max = max;
+    }
+
+    public Boolean getEnable() {
+        return enable;
+    }
+
+    public void setEnable(Boolean enable) {
+        this.enable = enable;
     }
 }
